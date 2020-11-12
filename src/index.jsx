@@ -9,7 +9,7 @@ const App = () => {
         <h1>test</h1>
       </header>
       <main>
-        <p>Moje první React stránka</p>
+        <p>Naše malé trápení s úkolem</p>
       </main>
       <footer>Martin Podloucký</footer>
     </>
