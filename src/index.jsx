@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import './index.html';
 import './style.css';
 
-import { homepage } from './texts.jsx';
+import { home } from './texts.jsx';
 import Header from './Header/index.jsx';
 
 const SectionQuote = ({ text }) => (
@@ -30,17 +30,29 @@ const HomepageMain = ({ titleText, listText, emphaText }) => (
   </>
 );
 
-const SectionAuthors = ({ titleText, image, name, text }) => (
+const Author = ({ image, name, text }) => (
+  <>
+    <div className="author-div">
+      <img src={image} alt={`Fotografie - ${name}`} />
+      <p className="author_name">{name}</p>
+      <p className="author_text">{text}</p>
+    </div>
+  </>
+);
+
+const SectionAuthors = ({ titleText, authors }) => (
   <>
     <section className="section_authors">
       <div className="authors_title-div">
         <h3 className="authors_title-text">{titleText}</h3>
       </div>
-      <div className="author-div">
-        <img src={image} alt={`Fotografie - ${name}`} />
-        <p className="author_name">{name}</p>
-        <p className="author_text">{text}</p>
-      </div>
+      {authors.map((author) => (
+        <Author
+          image={author.authorsImg}
+          name={author.authorsName}
+          text={author.authorsText}
+        />
+      ))}
     </section>
   </>
 );
@@ -49,24 +61,22 @@ const App = () => {
   return (
     <>
       <Header
-        logo={homepage.logo}
-        buttonText1={homepage.headerButton1}
-        buttonText2={homepage.headerButton2}
-        title={homepage.headerTitle}
-        titleText={homepage.headerText}
+        logo={home.logo}
+        buttonText1={home.headerButton1}
+        buttonText2={home.headerButton2}
+        title={home.headerTitle}
+        titleText={home.headerText}
       />
-      <SectionQuote text={homepage.section1} />
+      <SectionQuote text={home.section1} />
       <HomepageMain
-        titleText={homepage.mainTitleText}
-        listText={homepage.mainListText}
-        emphaText={homepage.mainEmphaText}
+        titleText={home.mainTitleText}
+        listText={home.mainListText}
+        emphaText={home.mainEmphaText}
       />
-      <SectionQuote text={homepage.section2} />
+      <SectionQuote text={home.section2} />
       <SectionAuthors
-        titleText={homepage.authors[0].authorsTitleText}
-        image={homepage.authors[0].authorsImg}
-        name={homepage.authors[0].authorsName}
-        text={homepage.authors[0].authorsText}
+        titleText={home.authorsTitleText}
+        authors={home.authors}
       />
 
       <footer>Toto čeká na Věrku</footer>

@@ -1,4 +1,4 @@
-export const homepage = {
+export const home = {
   logo: 'Moje porodní přání',
   headerButton1: 'Porodní přání',
   headerButton2: 'Užitečné informace',
@@ -21,16 +21,15 @@ export const homepage = {
   mainEmphaText:
     'Výstupem z aplikace by pro uživatele měl být přehledný porodní plán, který si bude moci vzít do porodnice.',
 
+  authorsTitleText: "O autorkách projektu",
   authors: [
     {
-      authorsTitleText: "O autorkách projektu",
-      authorsImg: "http://placekitten.com/g/200/300", // tady bude třeba vložit naše obrázky a cestu k nim
+      authorsImg: "http://placekitten.com/g/200/200", // tady bude třeba vložit naše obrázky a cestu k nim
       authorsName: "Věra Staňková",
       authorsText: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure magni nam facilis distinctio nobis facere. Rerum, quo aliquid id officiis maxime error? Quidem, necessitatibus corrupti." // tady bude třeba dopsat text
     },
     {
-      authorsTitleText: "O autorkách projektu",
-      authorsImg: "http://placekitten.com/g/200/300", // tady bude třeba vložit naše obrázky a cestu k nim
+      authorsImg: "http://placekitten.com/g/200/200", // tady bude třeba vložit naše obrázky a cestu k nim
       authorsName: "Tereza Bařinková",
       authorsText: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo odio dolorum reprehenderit officia minima facere, iusto aliquid necessitatibus ipsum in deserunt, non suscipit tenetur, nulla quasi corporis doloribus id quibusdam?", // tady bude třeba dopsat text
     }
