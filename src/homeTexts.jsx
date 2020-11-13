@@ -8,7 +8,7 @@ export const home = {
 
   section1:
     'Chtěly bychom vytvořit aplikaci Moje porodní přání, ve které si budoucí rodiče budou zdarma moci vytvořit porodní plán do porodnice ušitý na míru jejich preferencím a potřebám.',
-  section2: 'Na tom, jak se rodíme, záleží.',
+  section2: 'Na tom, jak přicházíme na svět, záleží.',
 
   mainTitleText: 'Aplikace Moje porodní přání rodičům pomůže:',
   mainListText: [
@@ -37,6 +37,7 @@ export const home = {
         'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo odio dolorum reprehenderit officia minima facere, iusto aliquid necessitatibus ipsum in deserunt, non suscipit tenetur, nulla quasi corporis doloribus id quibusdam?', // tady bude třeba dopsat text
     },
   ],
+
   footerLinks: [
     { name: 'Domů', url: '#' },
     { name: 'Sestavit porodní přání', url: '#' },

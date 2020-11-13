@@ -15,7 +15,7 @@ html {
 }
 
 * {
-  /* border: 1px solid rgb(77, 25, 107); */
+  /* border: 1px solid rgb(109, 61, 136); */
 }
 
 body {
@@ -27,7 +27,7 @@ body {
 
 .section_quote {
   background-color: #aeaebe;
-  padding: 3rem 0;
+  padding: 5rem 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -37,44 +37,45 @@ body {
 .quote_text {
   font-family: 'Lora', serif;
   font-size: 24px;
-  width: 800px;
+  max-width: 800px;
   text-align: center;
   color: white;
 }
 
 .homepage_main {
   margin-top: 6rem;
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
 }
 
 .main_title-div,
 .authors_title-div {
   background-color: #f6bd09;
-  padding: 1rem;
+  padding: 2.5rem;
   margin-right: 30%;
 }
 
 .main_list {
-  width: 800px;
-  margin-left: 2rem;
+  max-width: 800px;
+  margin: 4rem 0 4rem 35%;
   padding: 0;
-  position: relative;
 }
 
 .main_list li {
   list-style-type: none;
+  position: relative;
+  line-height: 3;
 }
 
-.main_list::before {
+.main_list li::before {
   position: absolute;
   content: "";
-  width: 80px;
-  height: 80px;
-  color: #f6bd09;
+  width: 20px;
+  height: 20px;
+  background-color: #89455d;
   border-radius: 100%;
   display: block;
-  left: -20px;
-  top: 0px;
+  left: -35px;
+  top: 18px;
 }
 
 .main_title-text,
@@ -97,7 +98,7 @@ body {
 .main_emphasized-text {
   color: #89455d;
   text-align: center;
-  width: 800px;
+  max-width: 800px;
   margin: auto;
 }
 
@@ -110,25 +111,45 @@ body {
 }
 
 .authors_content {
-  display: flex;
-  /* justify-content: space-between; */
-  margin: 6rem 8rem;
+  margin: 0 auto 6rem;
 }
 
 .author-div {
-  flex-basis: 40%;
+  flex-basis: 48%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 4rem;
+  padding: 0 2rem;
+  margin-top: 8rem;
 }
 
 .author-div img {
   border-radius: 100%;
-  margin-top: 2rem;
 }
 
 .author_name {
   color: #89455d;
-  margin: 3rem 0 2rem;
+  margin: 4rem 0 2rem;
+}
+
+.author_text {
+  text-align: center;
+}
+
+/* Media query pro větší obrazovky - nástřel: */
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 20px;
+  }
+
+  .authors_content {
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.author_text {
+  text-align: justify;
+}
+
 }
