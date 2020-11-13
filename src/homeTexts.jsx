@@ -7,7 +7,7 @@ export const home = {
   headerText: 'Aplikace pro sestavení porodního přání',
 
   section1:
-    'Chtěly bychom vytvořit aplikaci Moje porodní přání, ve které si budoucí rodiče budou zdarma moci vytvořit porodní plán do porodnice ušitý na míru jejich preferencím a potřebám.',
+    'Chtěly bychom vytvořit aplikaci Moje porodní přání, ve které si budoucí rodiče budou zdarma moci vytvořit porodní plán ušitý na míru jejich preferencím a potřebám.',
   section2: 'Na tom, jak přicházíme na svět, záleží.',
 
   mainTitleText: 'Aplikace Moje porodní přání rodičům pomůže:',

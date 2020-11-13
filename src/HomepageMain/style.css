@@ -44,9 +44,8 @@
 .main_emphasized-text,
 .authors_title-text,
 .author_name {
-  font-family: 'Lora', serif;
-  font-size: 24px;
-  font-weight: 500;
+  font-family: 'open sans', serif;
+  font-size: 26px;
   text-align: right;
   margin: 0;
 }
@@ -56,6 +55,7 @@
   text-align: center;
   max-width: 800px;
   margin: 0 auto 6rem;
+  font-weight: 600;
 }
 
 .section_authors {
