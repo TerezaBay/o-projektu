@@ -1,17 +1,26 @@
 import React from 'react';
 import { render } from 'react-dom';
 import './index.html';
+import "./style.css"
+
+import headerTexts from "./texts.jsx"
+import Header from "./Header/index.jsx"
 
 const App = () => {
   return (
     <>
-      <header>
-        <h1>test</h1>
-      </header>
+      <Header
+        logo={headerTexts.logo}
+        buttonText1={headerTexts.buttonText1}
+        buttonText2={headerTexts.buttonText2}
+        title={headerTexts.title}
+        titleText={headerTexts.titleText}
+      />
       <main>
         <p>Naše malé trápení s úkolem</p>
       </main>
-      <footer>Martin Podloucký</footer>
+
+      <footer>Toto čeká na Věrku</footer>
     </>
   );
 };
