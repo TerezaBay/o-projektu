@@ -1,0 +1,21 @@
+.author-div {
+  flex-basis: 48%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 2rem;
+  margin-top: 8rem;
+}
+
+.author-div img {
+  border-radius: 100%;
+}
+
+.author_name {
+  color: #89455d;
+  margin: 4rem 0 2rem;
+}
+
+.author_text {
+  text-align: justify;
+}
