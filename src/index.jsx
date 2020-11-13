@@ -18,7 +18,7 @@ const HomepageMain = ({ titleText, listText, emphaText }) => (
   <>
     <main className="homepage_main">
       <div className="main_title-div">
-        <h3 className="main_title-text">{titleText}</h3>
+        <h2 className="main_title-text">{titleText}</h2>
       </div>
       <ul className="main_list">
         {listText.map((list) => (
@@ -44,7 +44,7 @@ const SectionAuthors = ({ titleText, authors }) => (
   <>
     <section className="section_authors">
       <div className="authors_title-div">
-        <h3 className="authors_title-text">{titleText}</h3>
+        <h2 className="authors_title-text">{titleText}</h2>
       </div>
       {authors.map((author) => (
         <Author

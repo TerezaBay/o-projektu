@@ -14,7 +14,7 @@ const Header = ({ logo, buttonText1, buttonText2, title, titleText }) => (
         </div>
       </div>
       <h1 className="header_title">{title}</h1>
-      <h2 className="header_title-text">{titleText}</h2>
+      <p className="header_title-text">{titleText}</p>
       {/* Tady bychom pak daly tlačítko, ale do úkolové verze jej dávat nemusíme. Ale klidně jej můžeš nastylovat, jestli chceš. (: */}
       {/* <button></button> */}
     </header>
