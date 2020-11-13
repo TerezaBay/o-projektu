@@ -8,7 +8,7 @@ import Header from './Header/index.jsx';
 
 const SectionQuote = ({ text }) => (
   <>
-    <section className="section_guote">
+    <section className="section_quote">
       <div className="quote_text">{text}</div>
     </section>
   </>
@@ -46,13 +46,15 @@ const SectionAuthors = ({ titleText, authors }) => (
       <div className="authors_title-div">
         <h2 className="authors_title-text">{titleText}</h2>
       </div>
-      {authors.map((author) => (
-        <Author
-          image={author.authorsImg}
-          name={author.authorsName}
-          text={author.authorsText}
-        />
-      ))}
+      <div className="authors_content">
+        {authors.map((author) => (
+          <Author
+            image={author.authorsImg}
+            name={author.authorsName}
+            text={author.authorsText}
+          />
+        ))}
+      </div>
     </section>
   </>
 );
