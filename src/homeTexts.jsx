@@ -21,7 +21,7 @@ export const home = {
   mainEmphaText:
     'Výstupem z aplikace by pro uživatele měl být přehledný porodní plán, který si bude moci vzít do porodnice.',
 
-  authorsTitleText: "O autorkách projektu",
+  authorsTitleText: "O autorkách projektu:",
   authors: [
     {
       authorsImg: "http://placekitten.com/g/200/200", // tady bude třeba vložit naše obrázky a cestu k nim
