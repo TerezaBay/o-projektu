@@ -5,6 +5,7 @@ import './style.css';
 
 import { home } from './homeTexts.jsx';
 import Header from './Header/index.jsx';
+import Footer from './Footer/index.jsx';
 
 const SectionQuote = ({ text }) => (
   <>
@@ -66,6 +67,7 @@ const App = () => {
         logo={home.logo}
         buttonText1={home.headerButton1}
         buttonText2={home.headerButton2}
+        buttonText3={home.headerButton3}
         title={home.headerTitle}
         titleText={home.headerText}
       />
@@ -81,7 +83,7 @@ const App = () => {
         authors={home.authors}
       />
 
-      <footer>Toto čeká na Věrku</footer>
+      <Footer copyrightText={home.footerCopyright} links={home.footerLinks} />
     </>
   );
 };
