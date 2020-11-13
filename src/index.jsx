@@ -3,11 +3,8 @@ import { render } from 'react-dom';
 import './index.html';
 import './style.css';
 
-import { headerTexts } from './texts.jsx';
+import { homepageTexts } from './texts.jsx';
 import Header from './Header/index.jsx';
-
-import { sectionTexts } from './texts.jsx';
-import { homeMainTexts } from './texts.jsx';
 
 const SectionQuote = ({ text }) => (
   <>
@@ -37,18 +34,19 @@ const App = () => {
   return (
     <>
       <Header
-        logo={headerTexts.logo}
-        buttonText1={headerTexts.buttonText1}
-        buttonText2={headerTexts.buttonText2}
-        title={headerTexts.title}
-        titleText={headerTexts.titleText}
+        logo={homepageTexts.logo}
+        buttonText1={homepageTexts.headerButton1}
+        buttonText2={homepageTexts.headerButton2}
+        title={homepageTexts.headerTitle}
+        titleText={homepageTexts.headerText}
       />
-      <SectionQuote text={sectionTexts.homepageSec1} />
+      <SectionQuote text={homepageTexts.section1} />
       <HomepageMain
-        titleText={homeMainTexts.mainTitleText}
-        listText={homeMainTexts.mainListText}
-        emphaText={homeMainTexts.mainEmphaText}
+        titleText={homepageTexts.mainTitleText}
+        listText={homepageTexts.mainListText}
+        emphaText={homepageTexts.mainEmphaText}
       />
+      <SectionQuote text={homepageTexts.section2} />
 
       <footer>Toto čeká na Věrku</footer>
     </>
