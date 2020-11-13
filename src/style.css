@@ -5,19 +5,24 @@
 /* font-family: 'Merriweather', serif;
 font-family: 'Roboto', sans-serif; */
 
-
-html { box-sizing: border-box; }
-*, :after, :before { box-sizing: inherit; }
+html {
+  box-sizing: border-box;
+}
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
 
 * {
-  border: 1px solid rgb(77, 25, 107);
+  /* border: 1px solid rgb(77, 25, 107); */
 }
 
 body {
-margin: 0;
-font-family: 'Open Sans', sans-serif;
-font-size: 20px;
-line-height: 1.8;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  line-height: 1.8;
 }
 
 .section_quote {
@@ -42,18 +47,23 @@ line-height: 1.8;
   margin-bottom: 8rem;
 }
 
-.main_title-div, .authors_title-div {
-  background-color: #F6BD09;
+.main_title-div,
+.authors_title-div {
+  background-color: #f6bd09;
   padding: 0.5rem;
   display: flex;
   align-items: center;
 }
 
-.main_title-text, .authors_title-text {
+.main_title-text,
+.authors_title-text {
   color: white;
 }
 
-.main_title-text, .main_emphasized-text, .authors_title-text, .author_name {
+.main_title-text,
+.main_emphasized-text,
+.authors_title-text,
+.author_name {
   font-family: 'Lora', serif;
   font-size: 24px;
   font-weight: 500;
@@ -62,7 +72,7 @@ line-height: 1.8;
 }
 
 .main_emphasized-text {
-  color: #F6BD09;
+  color: #f6bd09;
 }
 
 .section_authors {
@@ -88,5 +98,5 @@ line-height: 1.8;
 }
 
 .author_name {
-  color: #89455D;
+  color: #89455d;
 }
