@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import './index.html';
 import './style.css';
 
-import { home } from './texts.jsx';
+import { home } from './homeTexts.jsx';
 import Header from './Header/index.jsx';
 
 const SectionQuote = ({ text }) => (
