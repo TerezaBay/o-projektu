@@ -16,7 +16,7 @@ const HomepageMain = ({
   <>
     <SectionQuote text={sectionText1} />
 
-    <main className="homepage_main">
+    <main id="#main" className="homepage_main">
       <div className="main_title-div">
         <h2 className="main_title-text">{mainTitle}</h2>
       </div>
@@ -29,7 +29,7 @@ const HomepageMain = ({
 
       <SectionQuote text={sectionText2} />
 
-      <section className="section_authors">
+      <section id="#authors" className="section_authors">
         <div className="authors_title-div">
           <h2 className="authors_title-text">{authorsTitle}</h2>
         </div>
