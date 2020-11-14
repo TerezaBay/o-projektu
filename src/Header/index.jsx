@@ -4,11 +4,11 @@ import Button from '../Button/index.jsx';
 
 const Header = ({
   logo,
-  buttonText1,
-  buttonUrl1,
-  buttonText2,
-  buttonUrl2,
-  buttonText3,
+  button1Text,
+  button1Url,
+  button2Text,
+  button2Url,
+  button3Text,
   title,
   titleText,
 }) => (
@@ -19,10 +19,10 @@ const Header = ({
         <div className="header_menu">
           <ul className="header_menu-buttons">
             <li>
-              <Button text={buttonText1} url={buttonUrl1} type="transparent" />
+              <Button text={button1Text} url={button1Url} type="transparent" />
             </li>
             <li>
-              <Button text={buttonText2} url={buttonUrl2}type="transparent" />
+              <Button text={button2Text} url={button2Url}type="transparent" />
             </li>
           </ul>
         </div>
@@ -30,7 +30,7 @@ const Header = ({
       <div className="header_content">
         <h1 className="header_title">{title}</h1>
         <p className="header_title-text">{titleText}</p>
-        <Button text={buttonText3} />
+        <Button text={button3Text} />
       </div>
     </header>
   </>

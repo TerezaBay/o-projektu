@@ -5,16 +5,16 @@ import SectionQuote from '../SectionQuote/index.jsx';
 import Author from '../Author/index.jsx';
 
 const HomepageMain = ({
-  sectionText1,
+  section1Text,
   mainTitle,
   listText,
   emphaText,
-  sectionText2,
+  section2Text,
   authorsTitle,
   authors,
 }) => (
   <>
-    <SectionQuote text={sectionText1} />
+    <SectionQuote text={section1Text} />
 
     <main id="main" className="homepage_main">
       <div className="main_title-div">
@@ -27,7 +27,7 @@ const HomepageMain = ({
       </ul>
       <p className="main_emphasized-text">{emphaText}</p>
 
-      <SectionQuote text={sectionText2} />
+      <SectionQuote text={section2Text} />
 
       <section id="authors" className="section_authors">
         <div className="authors_title-div">

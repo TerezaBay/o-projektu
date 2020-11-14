@@ -13,21 +13,21 @@ const App = () => {
     <>
       <Header
         logo={home.logo}
-        buttonText1={home.headerButton1}
-        buttonUrl1={home.button1Url}
-        buttonText2={home.headerButton2}
-        buttonUrl2={home.button2Url}
-        buttonText3={home.headerButton3}
+        button1Text={home.headerButton1}
+        button1Url={home.button1Url}
+        button2Text={home.headerButton2}
+        button2Url={home.button2Url}
+        button3Text={home.headerButton3}
         title={home.headerTitle}
         titleText={home.headerText}
       />
 
       <HomepageMain
-        sectionText1={home.section1}
+        section1Text={home.section1}
         mainTitle={home.mainTitleText}
         listText={home.mainListText}
         emphaText={home.mainEmphaText}
-        sectionText2={home.section2}
+        section2Text={home.section2}
         authorsTitle={home.authorsTitleText}
         authors={home.authors}
       />

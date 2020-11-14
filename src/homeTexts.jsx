@@ -30,16 +30,16 @@ export const home = {
   authorsTitleText: 'O autorkách projektu:',
   authors: [
     {
-      authorsImg: VeraUrl, // tady bude třeba vložit naše obrázky a cestu k nim
+      authorsImg: VeraUrl,
       authorsName: 'Věra Staňková',
       authorsText:
-        'Věrka pracuje pro skvělou neziskovku Aperio. Je hlavním nositelem nápadu a určitě se vyřádí na stylování! Má velikou radost, že projekt začíná dostávat pevné obrysy a doufá, že aplikace brzy pomůže prvním nastávajícím rodičům s přípravou na porod.',
+        'Věrka pracuje pro skvělou neziskovku Aperio. Je hlavním nositelem nápadu a určitě se vyřádí na stylování! Má velikou radost, že projekt začíná dostávat pevné obrysy, a doufá, že aplikace brzy pomůže prvním nastávajícím rodičům s přípravou na porod.',
     },
     {
-      authorsImg: TerkaUrl, // tady bude třeba vložit naše obrázky a cestu k nim
+      authorsImg: TerkaUrl,
       authorsName: 'Tereza Bařinková',
       authorsText:
-        'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo odio dolorum reprehenderit officia minima facere, iusto aliquid necessitatibus ipsum in deserunt, non suscipit tenetur, nulla quasi corporis doloribus id quibusdam?', // tady bude třeba dopsat text
+        'Terka absolvovala výcvik prenatální psychologie, díky čemuž si uvědomila, nakolik je příchod na tento svět důležitý. A jelikož se z ní stává naprostý nadšenec pro webový vývoj a React, udělá co je v jejích silách, aby si aplikace co nejdříve našla cestu ke svým uživatelům. ',
     },
   ],
 
