@@ -1,3 +1,6 @@
+import TerkaUrl from "./img/Terka.jpg"
+import VeraUrl from "./img/vera.jpg"
+
 export const home = {
   logo: 'Moje porodní přání',
   headerButton1: 'O aplikaci',
@@ -25,13 +28,13 @@ export const home = {
   authorsTitleText: 'O autorkách projektu:',
   authors: [
     {
-      authorsImg: './vera.jpg', // tady bude třeba vložit naše obrázky a cestu k nim
+      authorsImg: VeraUrl, // tady bude třeba vložit naše obrázky a cestu k nim
       authorsName: 'Věra Staňková',
       authorsText:
         'Věrka pracuje pro skvělou neziskovku Aperio. Je hlavním nositelem nápadu a určitě se vyřádí na stylování!',
     },
     {
-      authorsImg: 'http://placekitten.com/g/200/200', // tady bude třeba vložit naše obrázky a cestu k nim
+      authorsImg: TerkaUrl, // tady bude třeba vložit naše obrázky a cestu k nim
       authorsName: 'Tereza Bařinková',
       authorsText:
         'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo odio dolorum reprehenderit officia minima facere, iusto aliquid necessitatibus ipsum in deserunt, non suscipit tenetur, nulla quasi corporis doloribus id quibusdam?', // tady bude třeba dopsat text
