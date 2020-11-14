@@ -5,22 +5,24 @@ import Button from '../Button/index.jsx';
 const Header = ({
   logo,
   buttonText1,
+  buttonUrl1,
   buttonText2,
+  buttonUrl2,
   buttonText3,
   title,
   titleText,
 }) => (
   <>
-    <header id="#header" className="header_homepage">
+    <header id="header" className="header_homepage">
       <div className="header_nav">
         <div className="header_logo">{logo}</div>
         <div className="header_menu">
           <ul className="header_menu-buttons">
             <li>
-              <Button text={buttonText1} type="transparent" />
+              <Button text={buttonText1} url={buttonUrl1} type="transparent" />
             </li>
             <li>
-              <Button text={buttonText2} type="transparent" />
+              <Button text={buttonText2} url={buttonUrl2}type="transparent" />
             </li>
           </ul>
         </div>

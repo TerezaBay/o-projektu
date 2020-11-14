@@ -14,7 +14,9 @@ const App = () => {
       <Header
         logo={home.logo}
         buttonText1={home.headerButton1}
+        buttonUrl1={home.button1Url}
         buttonText2={home.headerButton2}
+        buttonUrl2={home.button2Url}
         buttonText3={home.headerButton3}
         title={home.headerTitle}
         titleText={home.headerText}

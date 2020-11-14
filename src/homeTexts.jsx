@@ -4,7 +4,9 @@ import VeraUrl from "./img/vera.jpg"
 export const home = {
   logo: 'Moje porodní přání',
   headerButton1: 'O aplikaci',
+  button1Url: "#main",
   headerButton2: 'O autorkách',
+  button2Url: "#authors",
   headerButton3: 'Sestavit porodní přání',
   headerTitle: 'Pro lepší zážitek z porodu',
   headerText: 'Aplikace pro sestavení porodního přání',
