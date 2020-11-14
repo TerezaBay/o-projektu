@@ -39,10 +39,10 @@ export const home = {
   ],
 
   footerLinks: [
-    { name: 'Domů', url: '#' },
-    { name: 'Sestavit porodní přání', url: '#' },
-    { name: 'O aplikaci', url: '#' },
-    { name: 'O autorkách', url: '#' },
+    { name: 'Domů', url: '#header' },
+    { name: 'Sestavit porodní přání', url: '#header' },
+    { name: 'O aplikaci', url: '#main' },
+    { name: 'O autorkách', url: '#authors' },
   ],
   footerCopyright: 'Homepage verze 1. 0',
 };

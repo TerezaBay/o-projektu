@@ -11,7 +11,7 @@ const Header = ({
   titleText,
 }) => (
   <>
-    <header className="header_homepage">
+    <header id="#header" className="header_homepage">
       <div className="header_nav">
         <div className="header_logo">{logo}</div>
         <div className="header_menu">
