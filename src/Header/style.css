@@ -4,7 +4,7 @@
 .header_homepage {
   height: 100vh;
   padding: 20px 40px;
-  background: url(../img/header-bg.jpg) 50% 50%;
+  background: url(../img/header-bg-ukol.jpg) 50% 50%;
   background-size: cover;
   color: #fff;
   text-align: center;
@@ -32,6 +32,30 @@
 .header_menu-buttons li {
   display: inline-block;
 }
+
+.footer_homepage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.footer_links {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  list-style: none;
+  min-width: 70%;
+  padding: 0;
+}
+
+.footer_links a {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+}
+
 @media (min-width: 768px) {
   .header_menu-buttons,
   .header_nav {
