@@ -33,29 +33,6 @@
   display: inline-block;
 }
 
-.footer_homepage {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 40px;
-}
-
-.footer_links {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  list-style: none;
-  min-width: 70%;
-  padding: 0;
-}
-
-.footer_links a {
-  display: inline-block;
-  list-style: none;
-  text-decoration: none;
-  color: #fff;
-}
-
 @media (min-width: 768px) {
   .header_menu-buttons,
   .header_nav {
