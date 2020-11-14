@@ -9,6 +9,7 @@
 
 .author-div img {
   border-radius: 100%;
+  min-width: 50%;
 }
 
 .author_name {
